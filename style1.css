@@ -1,0 +1,159 @@
+.navbar .side .widget .contact li .icon i {
+    color: #a22521 !important;
+}
+.attr-nav > ul > li.button-border > a {
+    border: 2px solid #a22521 !important;
+}
+.navbar .side .widget.social li.instagram a {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.navbar .side .widget.social li.youtube a {
+  background: #ff0000;
+}
+.navbar .side .widget.social li a:hover {
+    background: #a22521 none repeat scroll 0 0 !important;
+    color: #ffffff;
+}
+.attr-nav > ul > li.button-border > a {
+    border: 2px solid a22521 !important;
+}
+nav.navbar.bootsnav ul.nav > li > a:hover {
+    color: a22521 !important;
+}
+/*erp erm area*/
+.erp-crm-area {
+    background: #333;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+.erp-crm-area:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(assets/img/shape/bg-9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.1;
+}
+ul.erp-crm-ul {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    margin: 20px 0px;
+}
+ul.erp-crm-ul li {
+    color: #333;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 22px;
+}
+/*end erperm area*/
+.technology-area a h5::after{
+background:#333333;
+}
+.btn-theme {
+    background-color: #333333;
+     color: #ffffff !important; 
+   }
+
+.btn-theme.border:hover {
+    background-color: #333333 !important;
+    color: #fff !important;
+    border: 2px solid #333333  !important;
+}
+.btn-theme.border{
+    border: 2px solid #333333 !important;
+}
+.pricing-area .pricing .pricing-item ul li i {
+    color: inherit;
+}
+.btn-gradient::after{
+background:#333333
+}
+/*new*/
+.mobile-view {
+    display: none;
+}
+a.refer {
+    padding-top: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #2b2b2b;
+}
+.web .btn {
+    border: 2px solid #a22521;
+    color: #a22521;
+    margin-top: 10px;
+}
+/*responsive start*/
+@media (min-width: 1024px){
+nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.nav > li > a.active {
+    color: #a22521 !important;
+}
+}
+@media only screen and (max-width: 991px){
+
+}
+@media only screen and (max-width: 767px){
+.banner-area .content h1 {
+    text-align: left;
+    font-size: 44px;
+}
+.form-group.form-captcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.default-services-area .single-item {
+    text-align: center;
+}
+.web-view {
+    display: none;
+}
+.mobile-view {
+    display: block;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 100%;
+}
+.site-heading h2, .area-title h2 {
+    font-size: 30px;
+}
+footer .f-items.default-padding {
+    text-align: center;
+}
+}
+@media screen and (max-width 575px){
+.banner-area .content h1 {
+    font-size: 40px;
+}
+.technology-area .single-item {
+    float: left;
+    width: 33%;
+}
+.technology-area a {
+    border: 1px solid #a22521;
+}
+.technology-area a h5 {
+    display: none !important;
+}
+}
+@media screen and (max-width 380px){
+.banner-area .content h1 {
+    font-size: 35px;
+}
+.site-heading h2, .area-title h2 {
+    font-size: 26px;
+}
+}
